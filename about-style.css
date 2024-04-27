@@ -11,6 +11,7 @@ body{
  padding 0;
  color: #ffffff; /* White text color */
  /*background: linear-gradient(180deg, rgba(9,9,121,1) 0%, rgba(0,74,255,.75) 13%, rgba(0,212,255,0) 20%);*/
+  background: linear-gradient(180deg, rgba(9,9,121,1) 0%, rgba(0,74,255,.75) 13%, rgba(0,212,255,0) 20%);
 }
 
 div {
