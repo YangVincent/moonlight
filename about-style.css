@@ -9,16 +9,43 @@ body{
  height: 100vh;
  margin: 0;
  padding 0;
- /*background-color: #228B22;*/ /* Main green color for header */
  color: #ffffff; /* White text color */
- /*background: rgb(9,9,121);*/
-  background: linear-gradient(180deg, rgba(9,9,121,1) 0%, rgba(0,74,255,.75) 13%, rgba(0,212,255,0) 20%);
+ /*background: linear-gradient(180deg, rgba(9,9,121,1) 0%, rgba(0,74,255,.75) 13%, rgba(0,212,255,0) 20%);*/
 }
 
 div {
   margin: auto; /* center divs */
   text-align: center;
-  /*background: linear-gradient(180deg, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 75%, rgba(0,212,255,0.3253676470588235) 10%);*/
+  width: 80vw;
+  margin-top: 15vh;
+}
+
+.about {
+    background-color: #ffffff; /* White background color for the section */
+    padding: 50px; /* Add padding for spacing */
+}
+
+/* About section heading */
+.about h2 {
+    color: #228B22; /* Forest green color for the heading */
+    font-size: 24px; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Add bottom margin for spacing */
+}
+
+/* About section paragraph */
+.about p {
+    color: #555555; /* Dark gray text color for paragraphs */
+    font-size: 24px; /* Adjust font size as needed */
+    line-height: 1.5; /* Set line height for better readability */
+    margin-bottom: 20px; /* Add bottom margin for spacing */
+}
+
+/* About section link */
+.about a {
+    color: #228B22; /* Forest green color for links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make links bold */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
 }
 
 @media only screen and (max-width: 600px) {
@@ -44,3 +71,5 @@ div {
     }
     
 }
+
+
