@@ -1,0 +1,27 @@
+html {
+    /* To make use of full height of page*/
+    min-height: 100%;
+    margin: 0;
+    font-family: 'GT Eesti Display Trial';
+}
+
+body{
+ height: 100vh;
+ margin: 0;
+ padding 0;
+}
+
+div {
+  margin: auto; /* center divs */
+  text-align: center;
+}
+
+iframe{      
+        display: block;  /* iframes are inline by default */   
+        height: 100vh;  /* Set height to 100% of the viewport height */   
+        width: 100vw;  /* Set width to 100% of the viewport width */     
+        border: none; /* Remove default border */
+        background: lightyellow; /* Just for styling */
+}
+
+
