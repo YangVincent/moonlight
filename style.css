@@ -9,19 +9,41 @@ body{
  height: 100vh;
  margin: 0;
  padding 0;
+ /*background-color: #228B22;*/ /* Main green color for header */
+ color: #ffffff; /* White text color */
+ /*background: rgb(9,9,121);*/
+  background: linear-gradient(180deg, rgba(9,9,121,1) 0%, rgba(0,74,255,.75) 13%, rgba(0,212,255,0) 20%);
 }
 
 div {
   margin: auto; /* center divs */
   text-align: center;
+  /*background: linear-gradient(180deg, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 75%, rgba(0,212,255,0.3253676470588235) 10%);*/
 }
 
-iframe{      
-        display: block;  /* iframes are inline by default */   
-        height: 100vh;  /* Set height to 100% of the viewport height */   
-        width: 100vw;  /* Set width to 100% of the viewport width */     
-        border: none; /* Remove default border */
-        background: lightyellow; /* Just for styling */
+@media only screen and (max-width: 600px) {
+    iframe{      
+            margin: auto;
+            display: block;  /* iframes are inline by default */   
+            height: 100vh;  /* Set height to 100% of the viewport height */   
+            width: 100vw;  /* Set width to 100% of the viewport width */     
+            border: none; /* Remove default border */
+            background: lightyellow; /* Just for styling */
+    }
+    
 }
+
+@media only screen and (min-width: 600px) {
+    iframe{      
+            margin: auto;
+            display: block;  /* iframes are inline by default */   
+            height: 100vh;  /* Set height to 100% of the viewport height */   
+            width: 100vw;  /* Set width to 100% of the viewport width */     
+            border: none; /* Remove default border */
+            background: lightyellow; /* Just for styling */
+    }
+    
+}
+
 
 
